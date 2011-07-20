@@ -1,0 +1,878 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+  <!-- CSS: implied media="all" -->
+  <link rel="stylesheet" href="css/style.css?v=2">
+
+  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="js/libs/modernizr-1.7.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+	
+		<nav>
+	<img src="img/farm_to_fork.gif" />		
+			<ul>
+				<li><a class="active red" href="#type_beef">Beef</a></li>
+				<li><a class="red" href="#type_chicken">Chicken</a></li>
+				<li><a class="orange" href="#type_cheese">Cheese</a></li>
+				<li><a class="orange" href="#type_eggs">Eggs</a></li>
+				<li><a class="orange" href="#type_shrimp">Shrimp</a></li>
+				<li><a class="green" href="#type_strawberries">Strawberries</a></li>
+				<li><a class="green" href="#type_sprouts">Sprouts</a></li>
+				<li><a class="green" href="#type_peppers">Peppers</a></li>
+			</ul>
+		</nav>
+    </header>
+    <div id="main" role="main">
+	
+	
+		<!-- Beef -->
+
+
+		<div class="food_type red" id="type_beef">
+			<div class="main_slider">
+				<a href="#type_peppers" class="type_back type_arrow"><img src="img/type_back.png" alt="Go to Peppers"></a><img src="img/food_images/beef.jpg" alt="Beef"><a href="#type_chicken" class="type_forward type_arrow"><img src="img/type_forward.png"></a>
+			</div>
+			<div class="food_type_inner_menu">
+				<ul>
+					<li class="production_tab"><a class="active" href="#type_beef_detail_production">Production</a></li>
+					<li class="harvest_tab"><a href="#type_beef_detail_harvest">Harvest</a></li>
+					<li class="processing_tab"><a href="#type_beef_detail_processing">Processing</a></li>
+					<li class="import_tab"><a href="#type_beef_detail_import">Import</a></li>
+					<li class="distribution_tab"><a href="#type_beef_detail_distribution">Distribution</a></li>
+					<li class="consumption_tab"><a href="#type_beef_detail_consumption">Consumption</a></li>
+				</ul>				
+			</div>
+
+			<div class="details_slider">
+
+				<div id="type_beef_detail_production" class="detail clearfix">
+					<a href="#type_beef_detail_consumption" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_production.png">
+					<div>
+						<h2>Production</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unpasteurized) in interstate commerce as part of the Public Health Service Act. Unpasteurized soft beefs implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened beef.</p>
+					</div>
+					<a href="#type_beef_detail_harvest" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_beef_detail_harvest" class="detail clearfix">
+					<a href="#type_beef_detail_production" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_harvest.png">
+					<div>
+						<h2>Harvest</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft beefs implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened beef.</p>
+					</div>
+					<a href="#type_beef_detail_processing" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_beef_detail_processing" class="detail clearfix">
+					<a href="#type_beef_detail_harvest" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_processing.png">
+					<div>
+						<h2>Processing</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft beefs implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened beef.</p>
+					</div>
+					<a href="#type_beef_detail_import" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_beef_detail_import" class="detail clearfix">
+					<a href="#type_beef_detail_processing" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_import.png">
+					<div>
+						<h2>Import</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft beefs implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened beef.</p>
+					</div>
+					<a href="#type_beef_detail_distribution" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_beef_detail_distribution" class="detail clearfix">
+					<a href="#type_beef_detail_import" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_distribution.png">
+					<div>
+						<h2>Distribution</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft beefs implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened beef.</p>
+					</div>
+					<a href="#type_beef_detail_consumption" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_beef_detail_consumption" class="detail clearfix">
+					<a href="#type_beef_detail_distribution" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_consumption.png">
+					<div>
+						<h2>Consumption</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft beefs implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened beef.</p>
+					</div>
+					<a href="#type_beef_detail_production" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+
+				<div class="factoids">
+					<ul>
+						<li><a href="http://example.org/some/source"><img src="img/factoids/factoids_red.png"></a></li>						
+					</ul>
+				</div>
+				<div class="related_stories">
+					<div>
+						<h3>Ham</h3>
+						<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Beef biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey beef ribs jerky short loin.</p>
+					</div>
+					<div>
+						<h3>Ham</h3>
+						<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Beef biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey beef ribs jerky short loin.</p>
+					</div>
+					<div>
+						<h3>Ham</h3>
+						<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Beef biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey beef ribs jerky short loin.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- Chicken -->
+
+
+		<div class="food_type red" id="type_chicken">
+			<div class="main_slider">
+				<a href="#type_beef" class="type_back type_arrow"><img src="img/type_back.png" alt="Go to Beef"></a><img src="img/food_images/chicken.jpg" alt="Chicken"><a href="#type_cheese" class="type_forward type_arrow" alt="Go to Cheese"><img src="img/type_forward.png"></a>
+			</div>
+			<div class="food_type_inner_menu">
+				<ul>
+					<li class="production_tab"><a class="active" href="#type_chicken_detail_production">Production</a></li>
+					<li class="harvest_tab"><a href="#type_chicken_detail_harvest">Harvest</a></li>
+					<li class="processing_tab"><a href="#type_chicken_detail_processing">Processing</a></li>
+					<li class="import_tab"><a href="#type_chicken_detail_import">Import</a></li>
+					<li class="distribution_tab"><a href="#type_chicken_detail_distribution">Distribution</a></li>
+					<li class="consumption_tab"><a href="#type_chicken_detail_consumption">Consumption</a></li>
+				</ul>				
+			</div>
+
+			<div class="details_slider">
+
+				<div id="type_chicken_detail_production" class="detail clearfix">
+					<a href="#type_chicken_detail_consumption" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_production.png">
+					<div>
+						<h2>Production</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unpasteurized) in interstate commerce as part of the Public Health Service Act. Unpasteurized soft chickens implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened chicken.</p>
+					</div>
+					<a href="#type_chicken_detail_harvest" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_chicken_detail_harvest" class="detail clearfix">
+					<a href="#type_chicken_detail_production" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_harvest.png">
+					<div>
+						<h2>Harvest</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft chickens implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened chicken.</p>
+					</div>
+					<a href="#type_chicken_detail_processing" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_chicken_detail_processing" class="detail clearfix">
+					<a href="#type_chicken_detail_harvest" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_processing.png">
+					<div>
+						<h2>Processing</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft chickens implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened chicken.</p>
+					</div>
+					<a href="#type_chicken_detail_import" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_chicken_detail_import" class="detail clearfix">
+					<a href="#type_chicken_detail_processing" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_import.png">
+					<div>
+						<h2>Import</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft chickens implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened chicken.</p>
+					</div>
+					<a href="#type_chicken_detail_distribution" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_chicken_detail_distribution" class="detail clearfix">
+					<a href="#type_chicken_detail_import" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_distribution.png">
+					<div>
+						<h2>Distribution</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft chickens implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened chicken.</p>
+					</div>
+					<a href="#type_chicken_detail_consumption" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_chicken_detail_consumption" class="detail clearfix">
+					<a href="#type_chicken_detail_distribution" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_consumption.png">
+					<div>
+						<h2>Consumption</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft chickens implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened chicken.</p>
+					</div>
+					<a href="#type_chicken_detail_production" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+
+				<div class="factoids">
+					<ul>
+						<li><a href="http://example.org/some/source"><img src="img/factoids/factoids_red.png"></a></li>						
+					</ul>
+				</div>
+				<div class="related_stories">
+					<div>
+						<h3>Ham</h3>
+						<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Chicken biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey chicken ribs jerky short loin.</p>
+					</div>
+					<div>
+						<h3>Ham</h3>
+						<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Chicken biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey chicken ribs jerky short loin.</p>
+					</div>
+					<div>
+						<h3>Ham</h3>
+						<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Chicken biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey chicken ribs jerky short loin.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+
+<!-- Cheese -->
+		<div class="food_type orange" id="type_cheese">
+			<div class="main_slider">
+				<a href="#type_chicken" class="type_back type_arrow"><img src="img/type_back.png" alt="Go to Chicken"></a><img src="img/food_images/cheese.jpg" alt="Cheese"><a href="#type_eggs" class="type_forward type_arrow" alt="Go to Eggs"><img src="img/type_forward.png"></a>
+			</div>
+			<div class="food_type_inner_menu">
+				<ul>
+					<li class="production_tab"><a class="active" href="#type_cheese_detail_production">Production</a></li>
+					<li class="harvest_tab"><a href="#type_cheese_detail_harvest">Harvest</a></li>
+					<li class="processing_tab"><a href="#type_cheese_detail_processing">Processing</a></li>
+					<li class="import_tab"><a href="#type_cheese_detail_import">Import</a></li>
+					<li class="distribution_tab"><a href="#type_cheese_detail_distribution">Distribution</a></li>
+					<li class="consumption_tab"><a href="#type_cheese_detail_consumption">Consumption</a></li>
+				</ul>				
+			</div>
+
+			<div class="details_slider">
+
+				<div id="type_cheese_detail_production" class="detail clearfix">
+					<a href="#type_cheese_detail_consumption" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_production.png">
+					<div>
+						<h2>Production</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unpasteurized) in interstate commerce as part of the Public Health Service Act. Unpasteurized soft cheeses implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened cheese.</p>
+					</div>
+					<a href="#type_cheese_detail_harvest" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_cheese_detail_harvest" class="detail clearfix">
+					<a href="#type_cheese_detail_production" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_harvest.png">
+					<div>
+						<h2>Harvest</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft cheeses implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened cheese.</p>
+					</div>
+					<a href="#type_cheese_detail_processing" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_cheese_detail_processing" class="detail clearfix">
+					<a href="#type_cheese_detail_harvest" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_processing.png">
+					<div>
+						<h2>Processing</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft cheeses implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened cheese.</p>
+					</div>
+					<a href="#type_cheese_detail_import" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_cheese_detail_import" class="detail clearfix">
+					<a href="#type_cheese_detail_processing" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_import.png">
+					<div>
+						<h2>Import</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft cheeses implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened cheese.</p>
+					</div>
+					<a href="#type_cheese_detail_distribution" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_cheese_detail_distribution" class="detail clearfix">
+					<a href="#type_cheese_detail_import" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_distribution.png">
+					<div>
+						<h2>Distribution</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft cheeses implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened cheese.</p>
+					</div>
+					<a href="#type_cheese_detail_consumption" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+				<div id="type_cheese_detail_consumption" class="detail clearfix">
+					<a href="#type_cheese_detail_distribution" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_consumption.png">
+					<div>
+						<h2>Consumption</h2>
+						<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+						<p>Unpasteurized soft cheeses implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened cheese.</p>
+					</div>
+					<a href="#type_cheese_detail_production" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+				</div>
+
+				<div class="factoids">
+					<ul>
+						<li><a href="http://example.org/some/source"><img src="img/factoids/factoids_orange.png"></a></li>							
+					</ul>
+				</div>
+				<div class="related_stories">
+					<div>
+						<h3>Ham</h3>
+						<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Cheese biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey cheese ribs jerky short loin.</p>
+					</div>
+					<div>
+						<h3>Ham</h3>
+						<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Cheese biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey cheese ribs jerky short loin.</p>
+					</div>
+					<div>
+						<h3>Ham</h3>
+						<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Cheese biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey cheese ribs jerky short loin.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+<!-- Eggs -->
+
+
+<div class="food_type orange" id="type_eggs">
+	<div class="main_slider">
+		<a href="#type_cheese" class="type_back type_arrow"><img src="img/type_back.png" alt="Go to Cheese"></a><img src="img/food_images/eggs.jpg" alt="Eggs"><a href="#type_shrimp" class="type_forward type_arrow" alt="Go to Shrimp"><img src="img/type_forward.png"></a>
+	</div>
+	<div class="food_type_inner_menu">
+		<ul>
+			<li class="production_tab"><a class="active" href="#type_eggs_detail_production">Production</a></li>
+			<li class="harvest_tab"><a href="#type_eggs_detail_harvest">Harvest</a></li>
+			<li class="processing_tab"><a href="#type_eggs_detail_processing">Processing</a></li>
+			<li class="import_tab"><a href="#type_eggs_detail_import">Import</a></li>
+			<li class="distribution_tab"><a href="#type_eggs_detail_distribution">Distribution</a></li>
+			<li class="consumption_tab"><a href="#type_eggs_detail_consumption">Consumption</a></li>
+		</ul>				
+	</div>
+
+	<div class="details_slider">
+
+		<div id="type_eggs_detail_production" class="detail clearfix">
+			<a href="#type_eggs_detail_consumption" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_production.png">
+			<div>
+				<h2>Production</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unpasteurized) in interstate commerce as part of the Public Health Service Act. Unpasteurized soft eggss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened eggs.</p>
+			</div>
+			<a href="#type_eggs_detail_harvest" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_eggs_detail_harvest" class="detail clearfix">
+			<a href="#type_eggs_detail_production" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_harvest.png">
+			<div>
+				<h2>Harvest</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft eggss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened eggs.</p>
+			</div>
+			<a href="#type_eggs_detail_processing" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_eggs_detail_processing" class="detail clearfix">
+			<a href="#type_eggs_detail_harvest" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_processing.png">
+			<div>
+				<h2>Processing</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft eggss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened eggs.</p>
+			</div>
+			<a href="#type_eggs_detail_import" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_eggs_detail_import" class="detail clearfix">
+			<a href="#type_eggs_detail_processing" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_import.png">
+			<div>
+				<h2>Import</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft eggss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened eggs.</p>
+			</div>
+			<a href="#type_eggs_detail_distribution" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_eggs_detail_distribution" class="detail clearfix">
+			<a href="#type_eggs_detail_import" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_distribution.png">
+			<div>
+				<h2>Distribution</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft eggss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened eggs.</p>
+			</div>
+			<a href="#type_eggs_detail_consumption" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_eggs_detail_consumption" class="detail clearfix">
+			<a href="#type_eggs_detail_distribution" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_consumption.png">
+			<div>
+				<h2>Consumption</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft eggss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened eggs.</p>
+			</div>
+			<a href="#type_eggs_detail_production" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+
+		<div class="factoids">
+			<ul>
+				<li><a href="http://example.org/some/source"><img src="img/factoids/factoids_orange.png"></a></li>							
+			</ul>
+		</div>
+		<div class="related_stories">
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Eggs biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey eggs ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Eggs biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey eggs ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Eggs biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey eggs ribs jerky short loin.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Shrimp -->
+
+<div class="food_type orange" id="type_shrimp">
+	<div class="main_slider">
+		<a href="#type_eggs" class="type_back type_arrow"><img src="img/type_back.png" alt="Go to Eggs"></a><img src="img/food_images/shrimp.jpg" alt="Shrimp"><a href="#type_strawberries" class="type_forward type_arrow" alt="Go to Strawberries"><img src="img/type_forward.png"></a>
+	</div>
+	<div class="food_type_inner_menu">
+		<ul>
+			<li class="production_tab"><a class="active" href="#type_shrimp_detail_production">Production</a></li>
+			<li class="harvest_tab"><a href="#type_shrimp_detail_harvest">Harvest</a></li>
+			<li class="processing_tab"><a href="#type_shrimp_detail_processing">Processing</a></li>
+			<li class="import_tab"><a href="#type_shrimp_detail_import">Import</a></li>
+			<li class="distribution_tab"><a href="#type_shrimp_detail_distribution">Distribution</a></li>
+			<li class="consumption_tab"><a href="#type_shrimp_detail_consumption">Consumption</a></li>
+		</ul>				
+	</div>
+
+	<div class="details_slider">
+
+		<div id="type_shrimp_detail_production" class="detail clearfix">
+			<a href="#type_shrimp_detail_consumption" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_production.png">
+			<div>
+				<h2>Production</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unpasteurized) in interstate commerce as part of the Public Health Service Act. Unpasteurized soft shrimps implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened shrimp.</p>
+			</div>
+			<a href="#type_shrimp_detail_harvest" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_shrimp_detail_harvest" class="detail clearfix">
+			<a href="#type_shrimp_detail_production" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_harvest.png">
+			<div>
+				<h2>Harvest</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft shrimps implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened shrimp.</p>
+			</div>
+			<a href="#type_shrimp_detail_processing" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_shrimp_detail_processing" class="detail clearfix">
+			<a href="#type_shrimp_detail_harvest" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_processing.png">
+			<div>
+				<h2>Processing</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft shrimps implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened shrimp.</p>
+			</div>
+			<a href="#type_shrimp_detail_import" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_shrimp_detail_import" class="detail clearfix">
+			<a href="#type_shrimp_detail_processing" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_import.png">
+			<div>
+				<h2>Import</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft shrimps implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened shrimp.</p>
+			</div>
+			<a href="#type_shrimp_detail_distribution" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_shrimp_detail_distribution" class="detail clearfix">
+			<a href="#type_shrimp_detail_import" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_distribution.png">
+			<div>
+				<h2>Distribution</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft shrimps implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened shrimp.</p>
+			</div>
+			<a href="#type_shrimp_detail_consumption" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_shrimp_detail_consumption" class="detail clearfix">
+			<a href="#type_shrimp_detail_distribution" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_consumption.png">
+			<div>
+				<h2>Consumption</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft shrimps implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened shrimp.</p>
+			</div>
+			<a href="#type_shrimp_detail_production" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+
+		<div class="factoids">
+			<ul>
+				<li><a href="http://example.org/some/source"><img src="img/factoids/factoids_orange.png"></a></li>						
+			</ul>
+		</div>
+		<div class="related_stories">
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Shrimp biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey shrimp ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Shrimp biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey shrimp ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Shrimp biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey shrimp ribs jerky short loin.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Strawberries -->
+
+
+<div class="food_type green" id="type_strawberries">
+	<div class="main_slider">
+		<a href="#type_shrimp" class="type_back type_arrow"><img src="img/type_back.png" alt="Go to Shrimp"></a><img src="img/food_images/strawberries.jpg" alt="Strawberries"><a href="#type_sprouts" class="type_forward type_arrow" alt="Go to Sprouts"><img src="img/type_forward.png"></a>
+	</div>
+	<div class="food_type_inner_menu">
+		<ul>
+			<li class="production_tab"><a class="active" href="#type_strawberries_detail_production">Production</a></li>
+			<li class="harvest_tab"><a href="#type_strawberries_detail_harvest">Harvest</a></li>
+			<li class="processing_tab"><a href="#type_strawberries_detail_processing">Processing</a></li>
+			<li class="import_tab"><a href="#type_strawberries_detail_import">Import</a></li>
+			<li class="distribution_tab"><a href="#type_strawberries_detail_distribution">Distribution</a></li>
+			<li class="consumption_tab"><a href="#type_strawberries_detail_consumption">Consumption</a></li>
+		</ul>				
+	</div>
+
+	<div class="details_slider">
+
+		<div id="type_strawberries_detail_production" class="detail clearfix">
+			<a href="#type_strawberries_detail_consumption" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_production.png">
+			<div>
+				<h2>Production</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unpasteurized) in interstate commerce as part of the Public Health Service Act. Unpasteurized soft strawberriess implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened strawberries.</p>
+			</div>
+			<a href="#type_strawberries_detail_harvest" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_strawberries_detail_harvest" class="detail clearfix">
+			<a href="#type_strawberries_detail_production" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_harvest.png">
+			<div>
+				<h2>Harvest</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft strawberriess implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened strawberries.</p>
+			</div>
+			<a href="#type_strawberries_detail_processing" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_strawberries_detail_processing" class="detail clearfix">
+			<a href="#type_strawberries_detail_harvest" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_processing.png">
+			<div>
+				<h2>Processing</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft strawberriess implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened strawberries.</p>
+			</div>
+			<a href="#type_strawberries_detail_import" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_strawberries_detail_import" class="detail clearfix">
+			<a href="#type_strawberries_detail_processing" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_import.png">
+			<div>
+				<h2>Import</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft strawberriess implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened strawberries.</p>
+			</div>
+			<a href="#type_strawberries_detail_distribution" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_strawberries_detail_distribution" class="detail clearfix">
+			<a href="#type_strawberries_detail_import" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_distribution.png">
+			<div>
+				<h2>Distribution</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft strawberriess implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened strawberries.</p>
+			</div>
+			<a href="#type_strawberries_detail_consumption" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_strawberries_detail_consumption" class="detail clearfix">
+			<a href="#type_strawberries_detail_distribution" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_consumption.png">
+			<div>
+				<h2>Consumption</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft strawberriess implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened strawberries.</p>
+			</div>
+			<a href="#type_strawberries_detail_production" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+
+		<div class="factoids">
+			<ul>
+				<li><a href="http://example.org/some/source"><img src="img/factoids/factoids_green.png"></a></li>							
+			</ul>
+		</div>
+		<div class="related_stories">
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Strawberries biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey strawberries ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Strawberries biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey strawberries ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Strawberries biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey strawberries ribs jerky short loin.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Sprouts -->
+
+<div class="food_type green" id="type_sprouts">
+	<div class="main_slider">
+		<a href="#type_strawberries" class="type_back type_arrow"><img src="img/type_back.png" alt="Go to Strawberries"></a><img src="img/food_images/sprouts.jpg" alt="Sprouts"><a href="#type_peppers" class="type_forward type_arrow" alt="Go to Peppers"><img src="img/type_forward.png"></a>
+	</div>
+	<div class="food_type_inner_menu">
+		<ul>
+			<li class="production_tab"><a class="active" class="active" href="#type_sprouts_detail_production">Production</a></li>
+			<li class="harvest_tab"><a href="#type_sprouts_detail_harvest">Harvest</a></li>
+			<li class="processing_tab"><a href="#type_sprouts_detail_processing">Processing</a></li>
+			<li class="import_tab"><a href="#type_sprouts_detail_import">Import</a></li>
+			<li class="distribution_tab"><a href="#type_sprouts_detail_distribution">Distribution</a></li>
+			<li class="consumption_tab"><a href="#type_sprouts_detail_consumption">Consumption</a></li>
+		</ul>				
+	</div>
+
+	<div class="details_slider">
+
+		<div id="type_sprouts_detail_production" class="detail clearfix">
+			<a href="#type_sprouts_detail_consumption" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_production.png">
+			<div>
+				<h2>Production</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unpasteurized) in interstate commerce as part of the Public Health Service Act. Unpasteurized soft sproutss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened sprouts.</p>
+			</div>
+			<a href="#type_sprouts_detail_harvest" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_sprouts_detail_harvest" class="detail clearfix">
+			<a href="#type_sprouts_detail_production" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_harvest.png">
+			<div>
+				<h2>Harvest</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft sproutss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened sprouts.</p>
+			</div>
+			<a href="#type_sprouts_detail_processing" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_sprouts_detail_processing" class="detail clearfix">
+			<a href="#type_sprouts_detail_harvest" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_processing.png">
+			<div>
+				<h2>Processing</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft sproutss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened sprouts.</p>
+			</div>
+			<a href="#type_sprouts_detail_import" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_sprouts_detail_import" class="detail clearfix">
+			<a href="#type_sprouts_detail_processing" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_import.png">
+			<div>
+				<h2>Import</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft sproutss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened sprouts.</p>
+			</div>
+			<a href="#type_sprouts_detail_distribution" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_sprouts_detail_distribution" class="detail clearfix">
+			<a href="#type_sprouts_detail_import" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_distribution.png">
+			<div>
+				<h2>Distribution</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft sproutss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened sprouts.</p>
+			</div>
+			<a href="#type_sprouts_detail_consumption" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_sprouts_detail_consumption" class="detail clearfix">
+			<a href="#type_sprouts_detail_distribution" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_consumption.png">
+			<div>
+				<h2>Consumption</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft sproutss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened sprouts.</p>
+			</div>
+			<a href="#type_sprouts_detail_production" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+
+		<div class="factoids">
+			<ul>
+				<li><a href="http://example.org/some/source"><img src="img/factoids/factoids_green.png"></a></li>						
+			</ul>
+		</div>
+		<div class="related_stories">
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Sprouts biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey sprouts ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Sprouts biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey sprouts ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Sprouts biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey sprouts ribs jerky short loin.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Peppers -->
+
+<div class="food_type green" id="type_peppers">
+	<div class="main_slider">
+		<a href="#type_sprouts" class="type_back type_arrow"><img src="img/type_back.png" alt="Go to Sprouts"></a><img src="img/food_images/peppers.jpg" alt="Peppers"><a href="#type_beef" class="type_forward type_arrow" alt="Go to Beef"><img src="img/type_forward.png"></a>
+	</div>
+	<div class="food_type_inner_menu">
+		<ul>
+			<li class="production_tab"><a class="active" href="#type_peppers_detail_production">Production</a></li>
+			<li class="harvest_tab"><a href="#type_peppers_detail_harvest">Harvest</a></li>
+			<li class="processing_tab"><a href="#type_peppers_detail_processing">Processing</a></li>
+			<li class="import_tab"><a href="#type_peppers_detail_import">Import</a></li>
+			<li class="distribution_tab"><a href="#type_peppers_detail_distribution">Distribution</a></li>
+			<li class="consumption_tab"><a href="#type_peppers_detail_consumption">Consumption</a></li>
+		</ul>				
+	</div>
+
+	<div class="details_slider">
+
+		<div id="type_peppers_detail_production" class="detail clearfix">
+			<a href="#type_peppers_detail_consumption" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_production.png">
+			<div>
+				<h2>Production</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unpasteurized) in interstate commerce as part of the Public Health Service Act. Unpasteurized soft pepperss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened peppers.</p>
+			</div>
+			<a href="#type_peppers_detail_harvest" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_peppers_detail_harvest" class="detail clearfix">
+			<a href="#type_peppers_detail_production" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_harvest.png">
+			<div>
+				<h2>Harvest</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft pepperss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened peppers.</p>
+			</div>
+			<a href="#type_peppers_detail_processing" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_peppers_detail_processing" class="detail clearfix">
+			<a href="#type_peppers_detail_harvest" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_processing.png">
+			<div>
+				<h2>Processing</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft pepperss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened peppers.</p>
+			</div>
+			<a href="#type_peppers_detail_import" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_peppers_detail_import" class="detail clearfix">
+			<a href="#type_peppers_detail_processing" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_import.png">
+			<div>
+				<h2>Import</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft pepperss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened peppers.</p>
+			</div>
+			<a href="#type_peppers_detail_distribution" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_peppers_detail_distribution" class="detail clearfix">
+			<a href="#type_peppers_detail_import" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_distribution.png">
+			<div>
+				<h2>Distribution</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft pepperss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened peppers.</p>
+			</div>
+			<a href="#type_peppers_detail_consumption" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+		<div id="type_peppers_detail_consumption" class="detail clearfix">
+			<a href="#type_peppers_detail_distribution" class="detail_nav detail_nav_back"><img src="img/detail_back.png"></a><img src="img/detail_icons/large_consumption.png">
+			<div>
+				<h2>Consumption</h2>
+				<p>In 1987 the FDA banned the shipment of raw milk (unapsteurized) in interstate commerce as part of the Public Health Service Act. </p>
+				<p>Unpasteurized soft pepperss implicated in disease outbreaks include: brie, camembert, vacherin, home-made, soft and unripened peppers.</p>
+			</div>
+			<a href="#type_peppers_detail_production" class="detail_nav detail_nav_forward"><img src="img/detail_forward.png"></a>
+		</div>
+
+		<div class="factoids">
+			<ul>
+				<li><a href="http://example.org/some/source"><img src="img/factoids/factoids_green.png"></a></li>						
+			</ul>
+		</div>
+		<div class="related_stories">
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Peppers biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey peppers ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Peppers biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey peppers ribs jerky short loin.</p>
+			</div>
+			<div>
+				<h3>Ham</h3>
+				<p>Shank shankle ham, ribeye pork loin strip steak flank andouille ham hock pastrami venison swine ground round tenderloin meatloaf. Peppers biltong meatball pastrami spare ribs strip steak boudin, bresaola turkey peppers ribs jerky short loin.</p>
+			</div>
+		</div>
+		
+	
+	</div>
+</div>
+
+
+
+
+
+
+
+
+    </div>
+    <footer>
+
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+  <script src="js/libs/jquery-ui/js/jquery-ui-1.8.14.custom.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+  <![endif]-->
+
+
+  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
+
+</body>
+</html>
